@@ -28,7 +28,7 @@ CyberShield is a free, all-in-one security toolkit designed to help Sri Lankan i
 
 ## ✨ Features
 
-### 👤 User Tools (7 Tools)
+### 👤 User Tools (6 Tools)
 - **Password Analyzer** – Check strength, crack time, breach status
 - **URL Safety Checker** – Detect phishing/malware with VirusTotal + Google Safe Browsing
 - **SSL & Headers Checker** – TLS handshake, security headers, grade (A+ to F)
@@ -36,7 +36,7 @@ CyberShield is a free, all-in-one security toolkit designed to help Sri Lankan i
 - **Smishing/Scam Analyzer** – Analyze messages for scam indicators
 - **Metadata Remover** – Remove sensitive EXIF/GPS data from images
 
-### 🎓 Student Tools (7 Tools)
+### 🎓 Student Tools (6 Tools)
 - DNS Lookup – View A, MX, CNAME, NS, TXT records
 - Whois Lookup – Domain registration details
 - IP Reputation – Check malicious IPs via AbuseIPDB
@@ -107,6 +107,10 @@ cybershield/
 - Node.js 16+
 
 ### Steps
+ # Add API keys
+ - VIRUS_TOTAL_API_KEY= YOUR KEY HERE
+ - GOOGLE_SAFE_BROWSING_API_KEY= YOUR KEY HERE
+ - ABUSEIPDB_API_KEY = YOU KEY HERE
 
 ```bash
 # 1. Clone the repository
