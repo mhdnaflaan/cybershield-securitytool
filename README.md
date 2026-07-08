@@ -56,21 +56,21 @@ CyberShield is a free, all-in-one security toolkit designed to help Sri Lankan i
 ---
 
 ## 🏗️ Architecture
-cybershield/
-├── app/
-│   ├── Http/Controllers/     # All controllers
-│   ├── Models/               # User, Scan models
-│   ├── Services/             # API integrations
-│   ├── DTOs/                 # Data Transfer Objects
-│   └── Jobs/                 # Background jobs
-├── resources/views/
-│   ├── admin/                # Admin dashboard
-│   ├── student/              # Student tools
-│   ├── user/                 # User tools
-│   ├── auth/                 # Authentication pages
-│   └── layouts/              # Master layout
-├── routes/web.php            # All routes
-└── config/services.php       # API configurations
+- cybershield/
+- ├── app/
+- │   ├── Http/Controllers/     # All controllers
+- │   ├── Models/               # User, Scan models
+- │   ├── Services/             # API integrations
+- │   ├── DTOs/                 # Data Transfer Objects
+- │   └── Jobs/                 # Background jobs
+- ├── resources/views/
+- │   ├── admin/                # Admin dashboard
+- │   ├── student/              # Student tools
+- │   ├── user/                 # User tools
+- │   ├── auth/                 # Authentication pages
+- │   └── layouts/              # Master layout
+- ├── routes/web.php            # All routes
+- └── config/services.php       # API configurations
 
 ---
 
@@ -90,10 +90,10 @@ cybershield/
 
 ---
 ## Author
--Mohamed Naflan
--Advanced Technological Institute,Nawalapitiya
--HND IT
--2023/2024
+- Mohamed Naflan
+- Advanced Technological Institute,Nawalapitiya
+- HND IT
+- 2023/2024
 
 ## Licence
 -This project for educational purpose only.
