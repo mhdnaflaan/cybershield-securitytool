@@ -61,7 +61,7 @@ Route::middleware(['auth','user.active','throttle:60,1'])->group(function () {
     Route::post('/ssl-checker', [SslCheckerController::class, 'check'])->name('ssl.checker.check');
     //smishing tool
     Route::get('/smishing-analyzer',[SmishingController::class,'index'])->name('smishing.analyzer');
-    Route::post('/smishing-analyzer',[SmishingController::class,'analyze'])->name('smishing.analyzer');
+    Route::post('/smishing-analyzer',[SmishingController::class,'analyze'])->name('smishing.analyze');
 
     Route::get('/qr-checker',[QrCodeController::class,'index'])->name('qr.checker');
     Route::post('/qr-checker',[QrCodeController::class,'check'])->name('qr.checker.check');
@@ -73,7 +73,7 @@ Route::middleware(['auth','user.active','throttle:60,1'])->group(function () {
     Route::get('/pdf/report/{id}', [PdfController::class, 'generate'])->name('pdf_report');
     Route::get('/pdf/all', [PdfController::class, 'generateAll'])->name('pdf_all');
      
-      // Metadata Remover (User Tool)
+    
     Route::get('/metadata-remover', [MetadataRemoverController::class, 'index'])->name('metadata.remover');
     Route::post('/metadata-remover', [MetadataRemoverController::class, 'remove'])->name('metadata.remove');
     Route::get('/metadata-remover/download/{filename}', [MetadataRemoverController::class, 'download'])->name('metadata.download');
