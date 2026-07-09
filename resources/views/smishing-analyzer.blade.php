@@ -26,7 +26,7 @@
         </div>
 
         <!-- Input Form -->
-        <form method="POST" action="{{ route('smishing.analyzer') }}">
+        <form method="POST" action="{{ route('smishing.analyze') }}">
             @csrf
             <div class="mb-4">
                 <label class="block text-gray-700 font-medium mb-2">Paste the message to analyze:</label>

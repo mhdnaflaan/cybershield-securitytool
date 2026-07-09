@@ -61,7 +61,7 @@ Route::middleware(['auth','user.active','throttle:60,1'])->group(function () {
     Route::post('/ssl-checker', [SslCheckerController::class, 'check'])->name('ssl.checker.check');
     //smishing tool
     Route::get('/smishing-analyzer',[SmishingController::class,'index'])->name('smishing.analyzer');
-    Route::post('/smishing-analyzer',[SmishingController::class,'analyze'])->name('smishing.analyzer');
+    Route::post('/smishing-analyzer',[SmishingController::class,'analyze'])->name('smishing.analyze');
 
     Route::get('/qr-checker',[QrCodeController::class,'index'])->name('qr.checker');
     Route::post('/qr-checker',[QrCodeController::class,'check'])->name('qr.checker.check');
