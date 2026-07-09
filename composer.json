@@ -11,6 +11,7 @@
     "require": {
         "php": "^8.2",
         "ext-gd": "*",
+        "ext-intl": "*",
         "barryvdh/laravel-dompdf": "^3.1",
         "khanamiryan/qrcode-detector-decoder": "^2.0",
         "laravel/breeze": "^2.4",
